@@ -24,7 +24,7 @@ const Hero = () => {
               
             </Link>
             <Link
-              to="/book"
+              to="/dashboard"
               className="flex items-center gap-2 px-6 py-3 md:px-8 md:py-4 border border-blue-600 text-blue-600 text-sm md:text-lg rounded-lg shadow-md hover:bg-blue-50 transition w-fit mx-auto sm:mx-0"
             >
                View Dashboard 
