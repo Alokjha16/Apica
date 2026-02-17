@@ -1,46 +1,44 @@
-// assets/featuresData.js
 export const featuresData = [
   {
-    image: "/icon.png", // custom chatbot icon from public folder
-    title: "AyurBot",
+    iconName: "LayoutDashboard",
+    title: "Executive Dashboard",
     description:
-      "Your intelligent Ayurvedic chatbot assistant for Panchakarma and general health queries. Get professional, easy-to-understand guidance instantly, anytime.",
+      "Get a complete overview of customer growth, total recommendations generated, cross-sell revenue, and AI performance through real-time analytics and smart visual insights.",
+    route: "/dashboard",
   },
   {
-    iconName: "FileText",
-    title: "Track Therapy",
+    iconName: "Users",
+    title: "Customer Analytics",
     description:
-      "Stay updated on your Panchakarma journey by monitoring therapy progress, receive diet and medicine plans and upcoming session alerts—all in one place.",
-      route: "/Tracker",
+      "Manage and analyze customer profiles including income, risk profile, active products, recommendation confidence score, and engagement status in one intelligent CRM view.",
+    route: "/customers",
   },
   {
-  iconName: "CheckCircle",
-  title: "GS Eligibility Checker",
-  description:
-    "Easily check your eligibility for various government health schemes. Get real-time updates and guidance on benefits you can avail.",
-  route: "/eligibility-checker",
-},
-    {
-    iconName: "ShoppingBag", // lucide-react icon
-    title: "Shop Ayurveda",
+    iconName: "Brain",
+    title: "AI Recommendation Engine",
     description:
-      "Discover all types of Ayurvedic products and wellness essentials. Our integrated marketplace ensures you get trusted, high-quality remedies delivered at your convenience.",
+      "Hybrid Rule-Based and ML-powered engine that maps customer behavior to the most relevant banking products with confidence score, explainability panel, and decision logs.",
+    route: "/ai-engine",
   },
-
-   {
-  iconName: "BookOpen",
-  title: "View Blogs",
-  description:
-    "Explore informative blogs about Ayurveda, famous Panchakarma therapies, wellness tips, and holistic health practices to stay updated.",
-  route: "/blogs",
-},
   {
-    iconName: "MessageSquare",
-    title: "Connect Us",
+    iconName: "Package",
+    title: "Bank Products",
     description:
-      "Have suggestions or want to collaborate? Reach out anytime through our contact page and let’s build better for Ayurveda together.",
-    route: "/contactus",
+      "Explore deposits, loans, credit cards, insurance, and investments with real-time metrics including active users, monthly growth, revenue contribution, and AI success rate.",
+    route: "/products",
   },
-
-
+  {
+    iconName: "Mail",
+    title: "Campaigns & Messaging",
+    description:
+      "Create personalized campaigns, generate AI-powered messages, track open and conversion rates, and manage bulk or individual product recommendations.",
+    route: "/campaigns",
+  },
+  {
+    iconName: "ShieldCheck",
+    title: "Compliance & Logs",
+    description:
+      "Ensure regulatory readiness with audit trails, AI decision logs, customer consent status, encryption monitoring, and complete message tracking for transparency.",
+    route: "/compliance",
+  },
 ];

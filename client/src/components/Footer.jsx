@@ -13,7 +13,7 @@ const Footer = () => {
             <ShieldCheck className="text-orange-500 w-8 h-8" />
             <div className="ml-3">
               <h4 className="text-white text-lg font-semibold">Developed By</h4>
-              <span className="text-sm">@INNOVGENIUS – APICA Team</span>
+              <span className="text-sm">@APEX INNOVATORS</span>
             </div>
           </div>
 
@@ -35,49 +35,68 @@ const Footer = () => {
             <Mail className="text-orange-500 w-8 h-8" />
             <div className="ml-3">
               <h4 className="text-white text-lg font-semibold">Email Support</h4>
-              <span className="text-sm">support@apicabank.ai</span>
+              <span className="text-sm">alokjha1229@gmail.com</span>
             </div>
           </div>
         </div>
       </div>
 
       {/* Main Footer Content */}
-      <div className="py-10 max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-10 text-center md:text-left">
+      <div className="py-8 max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-10 text-center md:text-left">
         
         {/* Logo + About */}
         <div className="flex flex-col items-center md:items-start">
           <img src="/logo2.png" alt="Logo" className="w-25 mb-4 bg-amber-50 p-1 rounded" />
           <p className="text-sm leading-relaxed text-gray-300">
-            APICA (AI-Powered Intelligent Cross-Sell Agent) is a next-generation 
-            AI-driven banking platform designed to deliver personalized financial 
-            product recommendations using transaction insights and Responsible AI.
+           Our team, APEX INNOVATORS, is committed to building reliable, scalable, and intelligent technology that enhances customer experience, strengthens financial ecosystems, and drives meaningful digital transformation.
           </p>
           <div className="mt-4">
             <span className="text-white font-semibold block mb-2">Connect With Our Team</span>
-            <div className="flex gap-3 flex-wrap justify-center md:justify-start">
-              {/* Alok */}
-              <a href="https://www.linkedin.com/in/alok-jha-933943357" target="_blank" rel="noopener noreferrer" className="w-8 h-8 flex items-center justify-center rounded-full bg-blue-600 text-white hover:scale-110 transition">
-                <Linkedin className="w-4 h-4" />
-              </a>
-              {/* Vinit */}
-              <a href="https://www.linkedin.com/in/vinitkaple0718" target="_blank" rel="noopener noreferrer" className="w-8 h-8 flex items-center justify-center rounded-full bg-blue-600 text-white hover:scale-110 transition">
-                <Linkedin className="w-4 h-4" />
-              </a>
-              {/* Ravi */}
-              <a href="https://www.linkedin.com/in/ravishankar-kanaki-355661269" target="_blank" rel="noopener noreferrer" className="w-8 h-8 flex items-center justify-center rounded-full bg-blue-600 text-white hover:scale-110 transition">
-                <Linkedin className="w-4 h-4" />
-              </a>
-            </div>
+          <div className="flex gap-3 flex-wrap justify-center md:justify-start">
+  {/* Alok */}
+  <a 
+    href="https://www.linkedin.com/in/alok-jha-933943357" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    className="w-8 h-8 flex items-center justify-center rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-bold text-sm shadow-md hover:scale-110 hover:shadow-lg transition-all duration-300"
+
+  >
+    A
+  </a>
+
+  {/* Vinit */}
+  <a 
+    href="https://www.linkedin.com/in/vinitkaple0718" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+   className="w-8 h-8 flex items-center justify-center rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-bold text-sm shadow-md hover:scale-110 hover:shadow-lg transition-all duration-300"
+
+  >
+    V
+  </a>
+
+  {/* Ravi */}
+  <a 
+    href="https://www.linkedin.com/in/ravishankar-kanaki-355661269" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+   className="w-8 h-8 flex items-center justify-center rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-bold text-sm shadow-md hover:scale-110 hover:shadow-lg transition-all duration-300"
+
+  >
+    R
+  </a>
+</div>
+
           </div>
         </div>
 
         {/* Services & Help */}
-        <div className="m-auto flex flex-col items-center md:items-start px-6 space-y-5">
+        <div className="m-auto flex flex-col items-center md:items-start px-6 space-y-4">
           <div>
-            <h3 className="text-white text-lg font-semibold mb-1">Banking Services</h3>
+            <h3 className="text-white text-lg font-semibold mb-1">More Services</h3>
             <ul className="text-sm space-y-2">
-              <li><a href="/dashboard" className="text-blue-300 hover:underline">Customer 360 Dashboard</a></li>
-              <li><a href="/analytics" className="text-blue-300 hover:underline">Analytics & Insights</a></li>
+              <li><a href="/dashboard" className="text-blue-300 hover:underline">API Integration Support</a></li>
+              <li><a href="/analytics" className="text-blue-300 hover:underline">Advertising & Insights</a></li>
               <li><a href="/compliance" className="text-blue-300 hover:underline">AI Compliance</a></li>
             </ul>
           </div>
@@ -94,11 +113,9 @@ const Footer = () => {
         <div className="flex flex-col items-center md:items-start">
           <h3 className="text-white text-lg font-semibold mb-4">Disclaimer & Compliance</h3>
           <p className="text-sm leading-relaxed text-gray-300">
-            This platform is a prototype developed for a Hackathon under the Problem Statement: 
-            <span className="font-semibold italic block mt-1">AI-Powered Intelligent Cross-Sell Agent for Personalized Banking.</span>
-            <br />
-            APICA follows Responsible AI principles. All data used is simulated and 
-            does not represent real banking customers.
+           This website is currently under development for InnovGenius Ideathon × TCS.
+
+During the development phase, all names, data, references, and scenarios used on this platform are entirely fictional, simulated, or generated by AI for demonstration purposes only. Any resemblance to real individuals, organizations, banks, or entities is purely coincidental and unintended.
           </p>
         </div>
       </div>
@@ -106,7 +123,7 @@ const Footer = () => {
       {/* Bottom Footer */}
       <div className="bg-white py-4">
         <div className="max-w-7xl mx-auto px-4 flex justify-center items-center text-sm text-black text-center font-medium">
-          <p>© {new Date().getFullYear()} APICA – AI Powered Agent | Developed by APEX INNOVATORS</p>
+          <p>© {new Date().getFullYear()} APICA – AI Powered Agent </p>
         </div>
       </div>
     </footer>

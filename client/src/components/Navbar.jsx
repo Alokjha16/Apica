@@ -19,7 +19,7 @@ const Navbar = () => {
           <a href="#how-it-works" className="text-gray-700 hover:text-blue-600">
             How We Work
           </a>
-          <a href="/features" className="text-gray-700 hover:text-blue-600">
+          <a href="#features" className="text-gray-700 hover:text-blue-600">
             Features
           </a>
         </div>
