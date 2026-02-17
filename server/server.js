@@ -6,7 +6,6 @@ import { connectDB } from "./config/db.js";
 import bankAnalyticsRoutes from "./routes/bankAnalytics.routes.js";
 import productRoutes from "./routes/product.routes.js";
 
-
 dotenv.config();
 
 const app = express();
@@ -24,7 +23,6 @@ app.get("/", (req, res) => {
 // Register route
 app.use("/api/bank-analytics", bankAnalyticsRoutes);
 app.use("/api/products", productRoutes);
-
 
 const PORT = process.env.PORT || 5000;
 
