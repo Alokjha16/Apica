@@ -17,7 +17,7 @@ const Navbar = () => {
         {/* Navigation Links */}
         <div className="hidden md:flex items-center space-x-6">
           <a href="#how-it-works" className="text-gray-700 hover:text-blue-600">
-            How We Work
+            Subscription Plans
           </a>
           <a href="#features" className="text-gray-700 hover:text-blue-600">
             Features

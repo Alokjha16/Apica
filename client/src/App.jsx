@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 
 import Landing from "./pages/Landing";
 import DashboardLayout from "./components/layout/DashboardLayout";
-
+import NotFound from "./pages/NotFound";
 import DashboardPage from "./pages/DashboardPage";
 import CustomersPage from "./pages/CustomersPage";
 import ProductsPage from "./pages/ProductsPage";
@@ -15,10 +15,10 @@ import SettingsPage from "./pages/SettingsPage";
 const App = () => {
   return (
     <Routes>
-      {/* Landing */}
+      {/* 1. Landing Page */}
       <Route path="/" element={<Landing />} />
 
-      {/* Dashboard Layout Wrapper */}
+      {/* 2. Dashboard Protected Routes */}
       <Route path="/dashboard" element={<DashboardLayout />}>
         <Route index element={<DashboardPage />} />
         <Route path="customers" element={<CustomersPage />} />
@@ -27,7 +27,10 @@ const App = () => {
         <Route path="campaigns" element={<CampaignsPage />} />
         <Route path="compliance" element={<CompliancePage />} />
         <Route path="settings" element={<SettingsPage />} />
+        {/* Catches broken links INSIDE dashboard (e.g. /dashboard/test) */}
+        <Route path="*" element={<NotFound />} />
       </Route>
+      <Route path="*" element={<NotFound />} />
     </Routes>
   );
 };

@@ -8,7 +8,7 @@ const RightPanel = () => {
       {/* Wallet Section */}
       <div>
         <div className="flex justify-between items-center mb-4">
-          <h2 className="font-semibold text-gray-700">Wallet</h2>
+          <h2 className="font-semibold text-gray-700">Premium</h2>
           <MoreHorizontal size={18} className="text-gray-400 cursor-pointer" />
         </div>
 
@@ -23,17 +23,17 @@ const RightPanel = () => {
         <div className="grid grid-cols-4 gap-4 text-center">
           <div className="flex flex-col items-center gap-2 cursor-pointer hover:text-blue-600 transition">
             <Send size={20} />
-            <span className="text-xs">Send</span>
+            <span className="text-xs">Send report</span>
           </div>
 
           <div className="flex flex-col items-center gap-2 cursor-pointer hover:text-blue-600 transition">
             <Download size={20} />
-            <span className="text-xs">Receive</span>
+            <span className="text-xs">Download report</span>
           </div>
 
           <div className="flex flex-col items-center gap-2 cursor-pointer hover:text-blue-600 transition">
             <FileText size={20} />
-            <span className="text-xs">Invoices</span>
+            <span className="text-xs">Print report</span>
           </div>
 
           <div className="flex flex-col items-center gap-2 cursor-pointer hover:text-blue-600 transition">
