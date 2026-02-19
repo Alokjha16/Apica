@@ -30,12 +30,13 @@ const App = () => {
 
         <Route path="settings" element={<SettingsPage />} />
           <Route path="sms" element={<SMSPage />} />
+                <Route path="user" element={<UserAnalyze />} />
 
         {/* Catches broken links INSIDE dashboard (e.g. /dashboard/test) */}
         <Route path="*" element={<NotFound />} />
       </Route>
       <Route path="/subscription" element={<Subscription />} />
-       <Route path="/user" element={<UserAnalyze />} />
+ 
      
 
 
