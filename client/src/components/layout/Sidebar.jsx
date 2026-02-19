@@ -28,7 +28,7 @@ const Sidebar = () => {
       { name: "AI Engine", icon: Brain, path: "/dashboard/ai-engine" },
     { name: "Settings", icon: Settings, path: "/dashboard/settings" },
       { name: "Contact us ", icon: Phone, path: "/dashboard/contactus" },
-      { name: "Log Out ", icon: Power, path: "/" }
+      { name: "Log Out ", icon: Power, path: "/sms" }
   ];
 
   return (

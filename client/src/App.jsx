@@ -10,6 +10,9 @@ import AIEnginePage from "./pages/AIEnginePage";
 import ContactPage from "./pages/ContactPage";
 import SettingsPage from "./pages/SettingsPage";
 import Subscription from "./pages/Subscription";
+import UserAnalyze from "./pages/userAnalyze";
+import SMSPage from "./pages/SMSPage";
+
 
 const App = () => {
   return (
@@ -31,6 +34,10 @@ const App = () => {
         <Route path="*" element={<NotFound />} />
       </Route>
       <Route path="/subscription" element={<Subscription />} />
+       <Route path="/user" element={<UserAnalyze />} />
+       <Route path="/sms" element={<SMSPage />} />
+
+
       <Route path="*" element={<NotFound />} />
     </Routes>
   );

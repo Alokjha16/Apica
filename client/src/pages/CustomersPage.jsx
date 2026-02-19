@@ -1,6 +1,7 @@
 // client/src/pages/CustomersPage.jsx
 import { useState, useEffect } from "react";
 import { UserPlus, X } from "lucide-react";
+import { Link } from 'react-router-dom';
 
 const CustomersPage = () => {
   const [customers, setCustomers] = useState([]);
@@ -67,10 +68,12 @@ const CustomersPage = () => {
       {/* Header - stacks on mobile */}
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6">
         <h1 className="text-xl sm:text-2xl font-semibold text-gray-800">All Customers</h1>
-        <button className="flex items-center gap-2 px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition text-sm sm:text-base w-full sm:w-auto justify-center">
-          <UserPlus size={18} />
-          Add customer dataset
-        </button>
+<Link to="/user" className="w-full sm:w-auto">
+  <button className="  flex items-center gap-2 px-4 py-2  cursor-pointer bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition text-sm sm:text-base w-full justify-center">
+    <UserPlus size={18} />
+    Add customer dataset
+  </button>
+</Link>
       </div>
 
       {/* Product Type Tabs - wrap naturally */}

@@ -7,6 +7,12 @@ import bankAnalyticsRoutes from "./routes/bankAnalytics.routes.js";
 import productRoutes from "./routes/product.routes.js";
 import customerRecommendationRoutes from "./routes/customerRecommendation.routes.js";
 import aiRoutes from "./routes/ai.routes.js";
+import userRoutes from "./routes/user.routes.js";
+import userRecommendationRoutes from "./routes/userRecommendation.routes.js";
+import twilioRoutes from "./routes/twilio.routes.js";
+
+
+
 
 dotenv.config();
 
@@ -27,6 +33,11 @@ app.use("/api/bank-analytics", bankAnalyticsRoutes);
 app.use("/api/products", productRoutes);
 app.use("/api/customer-recommendations", customerRecommendationRoutes);
 app.use("/api/ai-insights", aiRoutes);
+app.use("/api/users", userRoutes);
+app.use("/api/users", userRecommendationRoutes);
+app.use("/api/twilio", twilioRoutes);
+
+
 
 const PORT = process.env.PORT || 5000;
 
