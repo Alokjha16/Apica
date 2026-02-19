@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
+
 import {
   Mail,
   MessageSquare,
@@ -296,14 +298,15 @@ const Part1Controls = () => {
               placeholder="(e.g., RBI: new rule, AI: insight)"
               className="flex-1 border border-gray-300 rounded-lg px-3 py-2 text-sm focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 transition"
             />
-            <button
-              type="button"
-              onClick={handleAddRecommendation}
-              className="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition flex items-center justify-center gap-1 text-sm"
-            >
-              <PlusCircle size={18} />
-              Add
-            </button>
+           <Link to="/dashboard/sms">
+  <button
+    type="button"
+    className="bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition flex items-center justify-center gap-1 text-sm w-full"
+  >
+    <PlusCircle size={18} />
+    Add
+  </button>
+</Link>
           </div>
           <p className="text-xs text-gray-500 mt-2">
             💡 Pre RBI guidelines are by default.

@@ -32,7 +32,7 @@ const Navbar = () => {
         {/* Custom Admin User Button */}
         <div className="flex items-center space-x-4">
           <Link
-            to="/admin"
+            to="/"
             className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-colors shadow-sm"
             title="Go to Admin Page"
           >
