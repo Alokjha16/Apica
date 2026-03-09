@@ -145,7 +145,7 @@ APICA is designed with responsible AI principles at its core:
 
 ## 👥 Team
 
-**Team Name:** Apex Innovators  
+**Team Name:** Deployed Kings  
 **Project:** APICA – AI Powered Intelligent Cross‑Selling Agent  
 **Hackathon Submission:** 2025  
 
