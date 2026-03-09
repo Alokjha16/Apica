@@ -13,7 +13,7 @@ const Footer = () => {
             <ShieldCheck className="text-orange-500 w-8 h-8" />
             <div className="ml-3">
               <h4 className="text-white text-lg font-semibold">Developed By</h4>
-              <span className="text-sm">  Vinit Kaple </span>
+              <span className="text-sm">  ~@VinitKaple </span>
             </div>
           </div>
 
